@@ -36,14 +36,21 @@ a:visited{
     color: white;
     text-decoration: none;
     display: inline-block;
-    margin-right: 5px;
+    
 }
 a:active,
 a:hover{
     text-decoration: underline;
     color: #364fc7;
     cursor: pointer;
+    display: inline-block;
+    margin-bottom: 2px;
 
+}
+.icons{
+    stroke: #fff;
+    width: 20px;
+    height: 20px;
 }
 nav a:link:last-child{
     text-decoration: underline;
